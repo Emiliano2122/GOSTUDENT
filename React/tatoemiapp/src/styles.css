@@ -1,0 +1,106 @@
+.card{
+    display: inline-block;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    min-width: 400px;
+    min-height: 400px;
+    border-radius: 30px;
+    overflow: hidden;
+    margin: 30px;
+}
+
+.card-profile-img{
+    height: 70%;
+}
+
+.card-logo{
+    position: absolute;
+    overflow: hidden;
+    height: 80px;
+    width: 80px;
+    border-radius: 20px;
+    left: 30px;
+    bottom: 30px;
+}
+
+.card-logo img {
+    height: 100%;
+}
+
+.card-description-bk{
+    background-image: linear-gradient(0deg, #3f5efb, #fc466b);
+    position: absolute;
+    top: 55%;
+    height: 65%;
+    width: 108%;
+    left: -5px;
+    transform:  skew(19deg, -9deg);
+    border-radius: 30px;
+}
+
+.card-description{
+    position: absolute;
+    left: 150px;
+    bottom: 15%;
+    color: aliceblue;
+    font-weight: 500;
+    right: 30px;
+    text-align: center;
+}
+
+.card-description:hover{
+    color: blue;
+}
+
+.card-button-buy{
+    position: absolute;
+    color: aquamarine;
+    right: 30px;
+    padding: 10px 20px;
+    border: 1px solid whitesmoke;
+    background-color: aqua;
+    border-radius: 30px;
+    bottom: 7%;
+    right: 30px;
+}
+
+.card-button-buy:hover{
+    color: black;
+    background-color: #3f5efb;
+    border: 1px solid #3f5efb;
+}
+
+.card-price{
+    position: absolute;
+    color: beige;
+    left: 120px;
+    bottom: 6%;
+}
+
+.card-stock{
+    position: absolute;
+    color: ghostwhite;
+    left: 30px;
+    bottom: 15px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: mediumaquamarine;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    overflow: hidden;
+}
+
+.navbar li{
+    display: inline-block;
+    padding: 14px 16px; 
+}
+
+.navbar li:hover{
+    background-color: aqua;
+}

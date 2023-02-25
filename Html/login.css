@@ -1,0 +1,98 @@
+#imagen {
+    background-image: url("https://img.freepik.com/fotos-premium/playa-barcelona-noche-verano-lo-largo-playa-barcelona-espana_73503-820.jpg?w=2000");
+    height: 100vh;
+    width: 100vw;
+}
+
+div#contenedor_principal {
+    background-color: aqua;
+    justify-content: center;
+    margin: 1rem;
+    padding: 2rem;
+    background-image: url('https://as01.epimg.net/diarioas/imagenes/2022/04/30/actualidad/1651323395_313362_1651323476_noticia_normal.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+div#card {
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    height: 100vh;
+}
+button#btn_Facebook:hover {
+    background-image: url('https://i.pinimg.com/originals/b7/63/69/b763699fd1fa3bfb374442593ae642e1.png');
+    background-color: transparent;
+}
+
+button#btn_Printrest:hover {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/25/25698.png');
+}
+
+button#btn_Instagram:hover {
+    background-image: url('https://assets.stickpng.com/images/58864ec6d27829db9cf6da58.png');
+}
+
+button#btn_Facebook {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/2048px-Facebook_f_logo_%282019%29.svg.png');
+    height: 3rem;
+    width: 3rem;
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+    color: transparent;
+    margin: 1rem;
+}
+
+button#btn_Printrest {
+    background-image: url('https://www.freepnglogos.com/uploads/pinterest-logo-p-png-0.png');
+    height: 3rem;
+    width: 3rem;
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+    color: transparent;
+    margin: 1rem;
+}
+
+button#btn_Instagram {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/800px-Instagram-Icon.png');
+    height: 3rem;
+    width: 3rem;
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+    color: transparent;
+    margin: 1rem;
+}
+
+div#contenedor_botones {
+    text-align: center;
+}
+
+div.rotulos {
+    text-align: center;
+    color: antiquewhite;
+}
+
+div.data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    display: block;
+    margin-right: 5px;
+}
+/*
+div.data input {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    height: 25%;
+}*/

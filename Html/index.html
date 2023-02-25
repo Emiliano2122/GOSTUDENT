@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <style>
+            div{
+                color: red;
+            }
+
+            h1{
+                color: green;
+            }
+
+            h2:nth-last-child(1){
+                color: blue;
+            }
+
+            h2{
+                color: black;
+            }
+            div.item{
+                color: black;
+            }
+        </style>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <script>
+            //Mnadamos a imprimir el codigo en la consola del navagador
+            console.log("Mi primer codigo de Javascript!!");
+            //Declaramos la variable x que es 50
+            let creditCard = 4422587468752145;
+            //Mandamos a imprimir la variable en la consola.
+            let suma = 1 + 2;
+
+            // if (suma == 2) {
+            //     console.log("la suma esta bien");
+            // }else{
+            //     console.log("no esta bien la suma");
+            // }
+            // document.write(suma);
+            // window.alert(suma);
+            // for(i=0; i <= 500; i++){
+            //     document.writeln("<div> Numero:" + i + "</div>");
+            // }
+            let contador = 0;
+            let items = document.getElementsByName("pepito");
+            console.log(items)
+            function contadorMas(){
+                contador = contador + 1;
+                document.getElementById("tercerP").innerHTML = contador;
+            }
+            function contadorMenos() {
+                contador = contador - 1;
+                document.getElementById("tercerP").innerHTML = contador;
+            }
+        </script>
+    </head>
+    <body>
+        <div class="item">
+            <p id="suma">Número: <span class="numero">10</span></p>
+            <button onClick="contadorMas()">+1</button>
+            <button onClick="contadorMenos()">-1</button>
+            <p id="tercerP">Número: <span class="numero">3</span></p>
+            <p>Número: <span class="numero">4</span></p>
+            <p>Número: <span class="numero">5</span></p>
+        </div>
+        <script>
+            document.getElementById("suma").innerHTML = suma;
+            console.log("Hola Emi")    
+        </script>
+    </body>
+</html>

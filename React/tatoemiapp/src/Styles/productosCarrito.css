@@ -1,0 +1,73 @@
+.Carrito{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 40%;
+}
+
+.cajaImagen img{
+    height: 100px;
+}
+
+.cajaImagen{
+    width: 20%;
+    text-align: center;
+}
+
+.descripcionProducto{
+    height: 100%;
+}
+
+.titulo{
+    font-size: 20px;
+    padding-top: 2px;
+}
+
+.subtitulo{
+    font-size: 17px;
+}
+
+.Contador{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.buttonRedondo{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.cuenta{
+    font-size: 18px;
+}
+
+.precios{
+    text-align: right;
+}
+
+.precio{
+    font-size: 18px;
+    padding-top: 4px;
+}
+
+.guardar{
+    padding-top: 6px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.eliminar{
+    padding-top: 4px;
+    font-size: 12px;
+    cursor: pointer;
+}

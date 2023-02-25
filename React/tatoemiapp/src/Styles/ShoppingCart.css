@@ -1,0 +1,33 @@
+.contenedorPrincipal{
+    background-color: tan;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    padding: 20px;
+    border-radius: 5%;
+    width: 50%;
+    height: 60vh;
+}
+
+.cabezeraPrincipal{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+
+.tituloPrincipal{
+    font-size: 20px;
+    font-size: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, "Verdana, sans-serif";
+}
+
+.buttonRemoverTodo{
+    color: black;
+    background-color: transparent;
+    border: 1px transparent;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
